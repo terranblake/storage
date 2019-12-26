@@ -5,7 +5,7 @@ export { Supported } from './src/enums/Supported';
 
 export function open(sources: string[]) {
 	for (let source of sources) {
-		const sourcePath = `${process.cwd()}/src/${source}.js`;
+		const sourcePath = `${__dirname}/src/${source}.js`;
 
 		if (!existsSync(sourcePath)) {
 			console.error(`no implementation exists for source ${source}`);

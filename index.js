@@ -7,7 +7,7 @@ exports.Supported = Supported_1.Supported;
 function open(sources) {
     for (var _i = 0, sources_1 = sources; _i < sources_1.length; _i++) {
         var source = sources_1[_i];
-        var sourcePath = process.cwd() + "/src/" + source + ".js";
+        var sourcePath = __dirname + "/src/" + source + ".js";
         if (!fs_1.existsSync(sourcePath)) {
             console.error("no implementation exists for source " + source);
             continue;
