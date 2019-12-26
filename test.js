@@ -1,0 +1,1 @@
+require('./index').open(['mongodb', 'redis']);
