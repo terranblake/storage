@@ -1,7 +1,7 @@
 {
   "name": "@postilion/storage",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "abstraction of data store connections to a shared module. allows services to create global connections to all dbs needed with a single name",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -11,6 +11,9 @@
     "@types/mongoose": "^5.5.35"
   },
   "scripts": {
+    "clean": "rm -rf node_modules && rm package-lock.json && npm install",
+    "push:publish": "git push && npm publish",
+    "build": "tsc ./index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
