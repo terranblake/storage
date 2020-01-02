@@ -1,13 +1,15 @@
 {
-  "name": "@postilion/storage",
-  "version": "1.0.2",
+  "name": "@postilion/stores",
+  "version": "1.0.3",
   "description": "abstraction of data store connections to a shared module. allows services to create global connections to all dbs needed with a single name",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "ioredis": "^4.14.1",
     "mongoose": "^5.8.3"
   },
   "devDependencies": {
+    "@types/ioredis": "^4.14.3",
     "@types/mongoose": "^5.5.35",
     "husky": "^3.1.0"
   },
