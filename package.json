@@ -32,13 +32,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terranblake/storage.git"
+    "url": "git+https://github.com/terranblake/stores.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/terranblake/storage/issues"
+    "url": "https://github.com/terranblake/stores/issues"
   },
-  "homepage": "https://github.com/terranblake/storage#readme"
+  "homepage": "https://github.com/terranblake/stores#readme"
 }
